@@ -93,11 +93,13 @@ z-index: 10;
 .part1 {
   background-color: #239b76;
   height: 700px;
+  width: 100%;
 }
 /* part2 */
 .part2 {
 background-color: #55acee;
 height: 700px;
+ width: 100%;
 }
 /* 会社概要 */
 table.commpanyprofile {
