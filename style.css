@@ -49,11 +49,11 @@ z-index: 10;
 /* countents */
 .contents {
   height: 550px;
-  background-image: url(https://raw.githubusercontent.com/nexseed0729/nexseedhome/master/spring.webp);
+  background-image: url(../img/spring.webp);
   background-size: cover;
 }
 .contents text {
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .contents h1 {
@@ -93,13 +93,12 @@ z-index: 10;
 .part1 {
   background-color: #239b76;
   height: 700px;
-  width: 100%;
 }
+
 /* part2 */
 .part2 {
 background-color: #55acee;
 height: 700px;
- width: 100%;
 }
 /* 会社概要 */
 table.commpanyprofile {
