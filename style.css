@@ -1,22 +1,22 @@
 /* 共通 */
+* {
+    box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+    margin: 0;
 }
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  text-align: center;
-}
+
 ul {
   list-style: none;
   margin-top: 20px;
 }
 
-h2 {
-  margin-top: 0;
-  padding-top: 85px;
+.container {
+    text-align: center;
+
 }
+
 /* header */
 header {
 background-color: black;
@@ -27,19 +27,38 @@ position: fixed;
 top: 0px;
 z-index: 10;
 }
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
 .header-left {
   float: left;
 }
+.header-left img {
+    opacity: 0.8;
+    float: left;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
 .header-left p {
-  font-family: monospace;
-  font-size: 25px;
-  line-height: 18px;
-
+    margin-left: 30px;
+    float: left;
+    font-family: monospace;
+    font-size: 25px;
+    line-height: 18px;
 }
 .header-right {
   float: right;
   font-size: 13px;
   opacity: 0.9;
+  padding-right: 20px;
 }
 
 /* main */
@@ -47,59 +66,133 @@ z-index: 10;
   margin-top: 70px;
 }
 /* countents */
+
 .contents {
-  height: 550px;
-  background-image: url(https://raw.githubusercontent.com/nexseed0729/nexseedhome/master/spring.webp);
+  height: 500px;
+  background-image: url(../img/spring.webp);
   background-size: cover;
 }
 .contents text {
-  padding-top: 200px;
+  padding-top: 350px;
 }
 
 .contents h1 {
-  color: black;
+  color: white;
   font-size: 45px;
-  padding-top: 30px;
+  padding-top: 10px;
   margin-left: 15px;
   letter-spacing: 3px;
 }
 
-.contents p {
+.contents h2 {
+    color: white;
   font-size: 20px;
   margin-top: 35px;
   margin-bottom: 50px;
-  margin-right: 100px;
+  margin-right: 80px;
   text-align: center;
 }
 
-.btn {
-  color: white;
-  margin-right: 50px;
-  padding: 8px 48px;
-  text-decoration: none;
-  border-radius: 4px;
+.btn1 {
+  color: #333333;
+  padding: 48px 48px;
   display: inline-block;
+  opacity: 0.8;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 240px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.btn2 {
+  color: #333333;
+  padding: 48px 48px;
+  display: inline-block;
+  opacity: 0.8;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 190px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.btn3 {
+  color: #333333;
+  padding: 8px 48px;
+  display: inline-block;
+  opacity: 0.8;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 225px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .mein-b {
-  background-color: #239b76;
+    background-color: rgba(232, 53, 86, 0.4);
+    text-decoration: none;
+    transition: all 1s;
+}
+.mein-b:hover {
+    background-color: rgba(232, 53, 86, 0.7);
 }
 
 .new-b {
-  background-color: #55acee;
+    background-color: rgba(97, 208, 212, 0.4);
+    text-decoration: none;
+    transition: all 1s;
+}
+.new-b:hover {
+    background-color: rgba(97, 208, 212, 0.7);
+}
+
+.info {
+    background-color: rgba(209, 201, 38, 0.4);
+    text-decoration: none;
+    transition: all 1s;
+}
+.info:hover {
+    background-color: rgba(209, 201, 38, 0.7);
+}
+
+.text {
+    height: 500px;
+}
+.nex {
+    margin-right: auto;
+    margin-left: auto;
+}
+.text h1 {
+    letter-spacing: 10px;
+    border-bottom: 5px solid #333333;
+    padding-top: 50px;
+}
+.text img {
+    float: left;
+    height: 200px;
+    width: 320px;
+}
+.text p {
+    float: left;
+    letter-spacing: 5px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
 }
 
 /* part1 */
 .part1 {
-  background-color: #239b76;
+    background-color: rgba(209, 201, 38, 1);
   height: 700px;
-  width: 100%;
 }
+
 /* part2 */
 .part2 {
 background-color: #55acee;
 height: 700px;
- width: 100%;
 }
 /* 会社概要 */
 table.commpanyprofile {
@@ -132,4 +225,11 @@ table.commpanyprofile td {
 }
 
 
-/* footer */
+footer {
+    margin-top: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+}
