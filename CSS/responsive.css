@@ -2,7 +2,7 @@
 @media(max-width: 1000px) {
     
 }
-@media(max-width: 670px) {
+@media(max-width: 830px) {
     header {
         background-color: black;
         color: white;
@@ -53,17 +53,15 @@
         opacity: 0.8;
         background-size: cover;
     }
-    .contents {
-        height: 250px;
-        background-image: url(../img/spring.webp);
-        background-size: cover;
-    }
     .btn {
         color:black;
         /* display: inline-block; */
         /* width: 25%; */
         border-radius: 0%;
     }
+    /* .mein-b :hover {
+        background-color: rgba(232, 53, 86, 0.9);
+      } */
     .mein-b {
         font-size: 15px;
         text-align: center;
@@ -100,10 +98,10 @@
         font-size: 35px;
         text-shadow: 9px 6px #808080;
         letter-spacing: 1px;
-        /* padding-top: 50px; */
+        /* padding-top: 50px */
         position: absolute;
-        top: 35px;
-        left: 40px;
+        top: 40px;
+        left: 80px;
     }
     .text {
         height: 750px;
