@@ -71,6 +71,15 @@ z-index: 10;
     /* width: 25%; */
     border-radius: 50%;
 }
+.mein-b:hover {
+    background-color: rgba(232, 53, 86, 0.7);
+}
+.new-b:hover {
+    background-color: rgba(97, 208, 212, 0.7);
+}
+.info:hover {
+    background-color: rgba(209, 201, 38, 0.7);
+}
 .mein-b {
     font-size: 15px;
     text-align: center;
