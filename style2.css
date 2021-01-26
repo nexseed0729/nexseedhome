@@ -62,7 +62,7 @@ z-index: 10;
 /* main部分 */
 .main {
     height: 700px;
-    background-image: url(../img/spring.webp);
+    background-image: url(”https://nexseed0729.github.io/nexseedhome/spring.webp”);
     opacity: 0.8;
     background-size: cover;
 }
