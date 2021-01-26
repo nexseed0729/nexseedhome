@@ -70,6 +70,7 @@ z-index: 10;
 }
 
 .btn {
+    font-weight: bold;
     color:black;
     display: inline-block;
     /* width: 25%; */
