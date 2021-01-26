@@ -2,13 +2,11 @@
 * {
     box-sizing: border-box;
 }
-
-.container {
-    text-align: center;
-}
-
 body {
     margin: 0;
+}
+.container {
+    text-align: center;
 }
 
 /* header */
@@ -64,13 +62,12 @@ z-index: 10;
 /* main部分 */
 .main {
     height: 700px;
-    background-image: url(https://nexseed0729.github.io/nexseedhome/spring.webp);
+    background-image: url(../img/spring.webp);
     opacity: 0.8;
     background-size: cover;
 }
 
 .btn {
-    font-weight: bold;
     color:black;
     display: inline-block;
     /* width: 25%; */
@@ -93,9 +90,6 @@ z-index: 10;
     background-color: rgba(232, 53, 86, 0.4);
     text-decoration: none;
     transition: all 1s;
-    /* position: absolute;
-    top: 150px;
-    left: 100px;  */
 }
 .new-b {
     margin-left: 50px;
@@ -129,6 +123,7 @@ z-index: 10;
 }
 
 .contents2 h1 {
+    color: gold;
     font-size: 75px;
     text-shadow: 14px 10px #808080;
     letter-spacing: 3px;
@@ -160,9 +155,9 @@ z-index: 10;
 
 /* part1 */
 .part1 {
-    height: 900px;
+    height: 1400px;
     padding-left: 15px;
-    background-color: cadetblue;
+    background-color: rgba(232, 53, 86, 0.2);
 }
 
 .part1-head {
@@ -177,7 +172,7 @@ z-index: 10;
     width: 100%;
 }
 .part1-main img {
-    margin-top: 50px;
+    margin-top: 40px;
     opacity: 0.8;
     float: left;
     height: 450px;
@@ -185,7 +180,23 @@ z-index: 10;
     border-radius: 50%;
     width: 33%;
 }
-
+.part1-left h3 {
+    color: gold;
+    font-weight: bold;
+    font-size: 25px;
+}
+.part1-info {
+    margin-top: 20px;
+}
+.part1-left {
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+.part1-right {
+    width: 50%;
+    display: inline-block;
+}
 .kimg1 {
     margin-left: auto;
     margin-right: auto;   
@@ -194,6 +205,13 @@ z-index: 10;
 .letter {
     display: inline-block;
 }
+.timeline {
+    margin-top: 20px;
+    list-style: none;
+  }
+  .timeline > li {
+    margin-bottom: 60px;
+  }
 
 /* part2 */
 .part2 {
